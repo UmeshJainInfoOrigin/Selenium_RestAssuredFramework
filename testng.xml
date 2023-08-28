@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="1" verbose="1" name="testSuites" annotations="JDK" parallel="tests">
+
+    <test name="example1">
+        <classes>
+            <class name="com.swissre.ioms.testSuites.dummyUI.CucumberRunnerTest"/>
+        </classes>
+
+    </test>
+
+</suite>

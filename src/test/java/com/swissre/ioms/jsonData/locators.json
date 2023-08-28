@@ -1,0 +1,12 @@
+{
+  "Home-Text": "(//a[text()='Home'])[1]",
+  "Platform-Text": "(//a[text()='Platform'])[1]",
+  "Services-Text": "(//a[text()='Services'])[1]",
+  "Careers-Text": "(//a[text()='Careers'])[1]",
+  "Leave-message":"//div[@class='leaveMessagestyle__WidgetBody-sc-rtheda-1 drblQR']",
+  "Reset-Button": "//input[@class='reset']",
+  "Name": "//input[@name='name']",
+  "Email": "//input[@name='email']",
+  "Subject": "//input[@name='subject']",
+  "Message": "//textarea[@name='message']"
+}

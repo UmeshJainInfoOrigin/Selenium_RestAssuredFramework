@@ -1,0 +1,8 @@
+{
+  "dev": {
+      "internalService1": {},
+      "iosetsService": {
+        "iosService": {}
+      }
+    }
+}

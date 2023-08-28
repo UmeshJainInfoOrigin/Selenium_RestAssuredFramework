@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [testSuites]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="1" parallel="tests" name="example1(failed)" verbose="0">
+    <classes>
+      <class name="com.swissre.ioms.testSuites.dummyUI.CucumberRunnerTest">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="destroyBrowser"/>
+          <include name="beforeAll"/>
+          <include name="launchBrowser"/>
+          <include name="afterAll"/>
+        </methods>
+      </class> <!-- com.swissre.ioms.testSuites.dummyUI.CucumberRunnerTest -->
+    </classes>
+  </test> <!-- example1(failed) -->
+</suite> <!-- Failed suite [testSuites] -->
