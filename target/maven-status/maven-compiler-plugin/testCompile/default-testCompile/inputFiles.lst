@@ -1,36 +1,31 @@
-C:\Dev\Disha\unified-automation-framework\src\test\java\testAutomation\common\ReadProperties.java
-C:\Dev\Disha\unified-automation-framework\src\test\java\testAutomation\api\apiAssertsCheck\APIAsserts.java
-C:\Dev\Disha\unified-automation-framework\src\test\java\com\swissre\ioms\crud\CommonUtilForIOOperation.java
-C:\Dev\Disha\unified-automation-framework\src\test\java\com\swissre\ioms\versioning\iosets\IOSetsVersioning.java
-C:\Dev\Disha\unified-automation-framework\src\test\java\testAutomation\common\healthCheck\services\ServicesHealthCheck.java
-C:\Dev\Disha\unified-automation-framework\src\test\java\com\swissre\ioms\stepDefinitions\utils\dummyUIStepUtils.java
-C:\Dev\Disha\unified-automation-framework\src\test\java\com\swissre\ioms\healthCheck\services\Service3.java
-C:\Dev\Disha\unified-automation-framework\src\test\java\com\swissre\ioms\versioning\VersionCRUDOperation.java
-C:\Dev\Disha\unified-automation-framework\src\test\java\com\swissre\ioms\testSuites\dummyAPI\Example2RunnerTest.java
-C:\Dev\Disha\unified-automation-framework\src\test\java\com\swissre\Sample_TestProject\HealthCheck\Service1.java
-C:\Dev\Disha\unified-automation-framework\src\test\java\testAutomation\common\userAuthCheck\OktaProvider.java
-C:\Dev\Disha\unified-automation-framework\src\test\java\com\swissre\ioms\healthCheck\services\Service2.java
-C:\Dev\Disha\unified-automation-framework\src\test\java\com\swissre\ioms\crud\IOSetAndIOSOperation.java
-C:\Dev\Disha\unified-automation-framework\src\test\java\testAutomation\ui\SeleniumLibWrapper_old.java
-C:\Dev\Disha\unified-automation-framework\src\test\java\com\swissre\ioms\crud\iosets\IOSetsOperation.java
-C:\Dev\Disha\unified-automation-framework\src\test\java\com\swissre\Sample_TestProject\UIRunner\UIRun.java
-C:\Dev\Disha\unified-automation-framework\src\test\java\com\swissre\ioms\stepDefinitions\dummyAPI\example2.java
-C:\Dev\Disha\unified-automation-framework\src\test\java\com\swissre\ioms\stepDefinitions\dummyUI\example.java
-C:\Dev\Disha\unified-automation-framework\src\test\java\testAutomation\api\restAssuredAPI\RestCallWrappers.java
-C:\Dev\Disha\unified-automation-framework\src\test\java\testAutomation\common\healthCheck\HealthCheck.java
-C:\Dev\Disha\unified-automation-framework\src\test\java\testAutomation\ui\SeleniumLibWrapper.java
-C:\Dev\Disha\unified-automation-framework\src\test\java\testAutomation\common\userAuthCheck\Auth.java
-C:\Dev\Disha\unified-automation-framework\src\test\java\testAutomation\utils\GetScreenShot.java
-C:\Dev\Disha\unified-automation-framework\src\test\java\com\swissre\ioms\crud\ios\IOSOperation.java
-C:\Dev\Disha\unified-automation-framework\src\test\java\testAutomation\common\healthCheck\services\HealthCheckService.java
-C:\Dev\Disha\unified-automation-framework\src\test\java\testAutomation\common\healthCheck\services\HealthCheckServiceFactory.java
-C:\Dev\Disha\unified-automation-framework\src\test\java\com\swissre\ioms\versioning\ios\InsuredObjectVersioning.java
-C:\Dev\Disha\unified-automation-framework\src\test\java\com\swissre\ioms\healthCheck\services\Service1.java
-C:\Dev\Disha\unified-automation-framework\src\test\java\com\swissre\ioms\testSuites\dummyUI\CucumberRunnerTest.java
-C:\Dev\Disha\unified-automation-framework\src\test\java\testAutomation\utils\ExcelReader.java
-C:\Dev\Disha\unified-automation-framework\src\test\java\com\swissre\ioms\stepDefinitions\sharedHooks\scenarioHook.java
-C:\Dev\Disha\unified-automation-framework\src\test\java\testAutomation\common\healthCheck\services\DatabaseHealthCheck.java
-C:\Dev\Disha\unified-automation-framework\src\test\java\testAutomation\common\userAuthCheck\OAuthProvider.java
-C:\Dev\Disha\unified-automation-framework\src\test\java\testAutomation\common\userAuthCheck\AuthProvider.java
-C:\Dev\Disha\unified-automation-framework\src\test\java\com\swissre\ioms\constants\Constants.java
-C:\Dev\Disha\unified-automation-framework\src\test\java\com\swissre\ioms\stepDefinitions\dummyUI\scenarioDataCache.java
+C:\Dev\New folder\Selenium_RestAssuredFramework\src\test\java\com\InfoOrigin\Template\cucumberRunner\dummyUI\CucumberRunnerTest.java
+C:\Dev\New folder\Selenium_RestAssuredFramework\src\test\java\com\InfoOrigin\Template\stepDefinitions\dummyAPI\example2.java
+C:\Dev\New folder\Selenium_RestAssuredFramework\src\test\java\com\InfoOrigin\Template\healthCheck\services\Service2.java
+C:\Dev\New folder\Selenium_RestAssuredFramework\src\test\java\testAutomation\common\healthCheck\services\DatabaseHealthCheck.java
+C:\Dev\New folder\Selenium_RestAssuredFramework\src\test\java\testAutomation\ui\SeleniumLibWrapper.java
+C:\Dev\New folder\Selenium_RestAssuredFramework\src\test\java\com\InfoOrigin\Template\crud\CommonUtilForIOOperation.java
+C:\Dev\New folder\Selenium_RestAssuredFramework\src\test\java\com\InfoOrigin\Template\cucumberRunner\dummyAPI\Example2RunnerTest.java
+C:\Dev\New folder\Selenium_RestAssuredFramework\src\test\java\testAutomation\api\restAssuredAPI\RestCallWrappers.java
+C:\Dev\New folder\Selenium_RestAssuredFramework\src\test\java\testAutomation\common\healthCheck\services\ServicesHealthCheck.java
+C:\Dev\New folder\Selenium_RestAssuredFramework\src\test\java\com\InfoOrigin\Template\stepDefinitions\sharedHooks\scenarioHook.java
+C:\Dev\New folder\Selenium_RestAssuredFramework\src\test\java\com\InfoOrigin\Template\healthCheck\services\Service3.java
+C:\Dev\New folder\Selenium_RestAssuredFramework\src\test\java\testAutomation\common\userAuthCheck\Auth.java
+C:\Dev\New folder\Selenium_RestAssuredFramework\src\test\java\testAutomation\common\ReadProperties.java
+C:\Dev\New folder\Selenium_RestAssuredFramework\src\test\java\com\InfoOrigin\Template\stepDefinitions\dummyUI\example.java
+C:\Dev\New folder\Selenium_RestAssuredFramework\src\test\java\testAutomation\common\healthCheck\services\HealthCheckServiceFactory.java
+C:\Dev\New folder\Selenium_RestAssuredFramework\src\test\java\com\InfoOrigin\Template\constants\Constants.java
+C:\Dev\New folder\Selenium_RestAssuredFramework\src\test\java\testAutomation\api\apiAssertsCheck\APIAsserts.java
+C:\Dev\New folder\Selenium_RestAssuredFramework\src\test\java\com\InfoOrigin\Template\crud\IOSetAndIOSOperation.java
+C:\Dev\New folder\Selenium_RestAssuredFramework\src\test\java\testAutomation\common\healthCheck\HealthCheck.java
+C:\Dev\New folder\Selenium_RestAssuredFramework\src\test\java\com\InfoOrigin\Template\crud\ios\IOSOperation.java
+C:\Dev\New folder\Selenium_RestAssuredFramework\src\test\java\testAutomation\ui\SeleniumLibWrapper_old.java
+C:\Dev\New folder\Selenium_RestAssuredFramework\src\test\java\testAutomation\utils\ExcelReader.java
+C:\Dev\New folder\Selenium_RestAssuredFramework\src\test\java\testAutomation\common\healthCheck\services\HealthCheckService.java
+C:\Dev\New folder\Selenium_RestAssuredFramework\src\test\java\testAutomation\common\userAuthCheck\AuthProvider.java
+C:\Dev\New folder\Selenium_RestAssuredFramework\src\test\java\com\InfoOrigin\Template\crud\iosets\IOSetsOperation.java
+C:\Dev\New folder\Selenium_RestAssuredFramework\src\test\java\com\InfoOrigin\Template\healthCheck\services\Service1.java
+C:\Dev\New folder\Selenium_RestAssuredFramework\src\test\java\testAutomation\common\userAuthCheck\OAuthProvider.java
+C:\Dev\New folder\Selenium_RestAssuredFramework\src\test\java\testAutomation\common\userAuthCheck\OktaProvider.java
+C:\Dev\New folder\Selenium_RestAssuredFramework\src\test\java\testAutomation\utils\GetScreenShot.java
+C:\Dev\New folder\Selenium_RestAssuredFramework\src\test\java\com\InfoOrigin\Template\stepDefinitions\dummyUI\scenarioDataCache.java
+C:\Dev\New folder\Selenium_RestAssuredFramework\src\test\java\com\InfoOrigin\Template\stepDefinitions\utils\dummyUIStepUtils.java

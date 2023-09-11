@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="10.549" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="12.926" tests="11" errors="0" skipped="0" failures="1">
   <properties>
     <property name="idea.version" value="2022.3.3"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="19.0.2+7-44"/>
     <property name="sun.boot.library.path" value="C:\Users\AbhishekChakole\.jdks\openjdk-19.0.2\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Dev\Disha\unified-automation-framework"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Dev\New folder\Selenium_RestAssuredFramework"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Dev\Disha\unified-automation-framework"/>
+    <property name="user.dir" value="C:\Dev\New folder\Selenium_RestAssuredFramework"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="java.runtime.version" value="19.0.2+7-44"/>
     <property name="os.arch" value="amd64"/>
@@ -31,7 +31,7 @@
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="AuthProvider" value="OAuth"/>
     <property name="stdout.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="C:\Users\AbhishekChakole\.jdks\openjdk-19.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python311\Scripts\;C:\Python311\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;;C:\Program Files\Azure Data Studio\bin;C:\Users\AbhishekChakole\AppData\Local\Microsoft\WindowsApps;C:\Users\AbhishekChakole\AppData\Local\JetBrains\IntelliJ IDEA 2022.3.3\bin;;C:\Users\AbhishekChakole\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\bin;;C:\Users\AbhishekChakole\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\AbhishekChakole\.jdks\openjdk-19.0.2\bin;C:\Users\AbhishekChakole\AppData\Local\Programs\Git\cmd;C:\Users\AbhishekChakole\AppData\Local\Yarn\bin;C:\Users\AbhishekChakole\AppData\Roaming\npm;."/>
+    <property name="java.library.path" value="C:\Users\AbhishekChakole\.jdks\openjdk-19.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python311\Scripts\;C:\Python311\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;;C:\Program Files\Azure Data Studio\bin;C:\Program Files\TortoiseGit\bin;C:\Users\AbhishekChakole\AppData\Local\Microsoft\WindowsApps;C:\Users\AbhishekChakole\AppData\Local\JetBrains\IntelliJ IDEA 2022.3.3\bin;;C:\Users\AbhishekChakole\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\bin;;C:\Users\AbhishekChakole\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\AbhishekChakole\.jdks\openjdk-19.0.2\bin;C:\Users\AbhishekChakole\AppData\Local\Programs\Git\cmd;C:\Users\AbhishekChakole\AppData\Local\Yarn\bin;C:\Users\AbhishekChakole\AppData\Roaming\npm;."/>
     <property name="jansi.passthrough" value="true"/>
     <property name="maven.conf" value="C:\Users\AbhishekChakole\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\plugins\maven\lib\maven3/conf"/>
     <property name="jdk.debug" value="release"/>
@@ -43,19 +43,19 @@
     <property name="user.timezone" value="Asia/Calcutta"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.specification.version" value="19"/>
-    <property name="cucumber.filter.tags" value="@IO"/>
+    <property name="cucumber.filter.tags" value="@Regression"/>
     <property name="user.name" value="AbhishekChakole"/>
     <property name="java.class.path" value="C:\Users\AbhishekChakole\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Users\AbhishekChakole\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
     <property name="java.vm.specification.version" value="19"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.3.3 clean compile test -DEnvName=dev -DAuthProvider=OAuth -Dcucumber.filter.tags=@IO"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.3.3 clean compile test -DEnvName=template_dev -DAuthProvider=OAuth -Dcucumber.filter.tags=@Regression"/>
     <property name="java.home" value="C:\Users\AbhishekChakole\.jdks\openjdk-19.0.2"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.version" value="19.0.2"/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="EnvName" value="dev"/>
+    <property name="EnvName" value="template_dev"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="sun.stderr.encoding" value="UTF-8"/>
     <property name="maven.home" value="C:\Users\AbhishekChakole\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\plugins\maven\lib\maven3"/>
@@ -67,47 +67,54 @@
     <property name="sun.stdout.encoding" value="UTF-8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="runScenario" classname="com.swissre.ioms.testSuites.dummyUI.CucumberRunnerTest" time="0.606">
+  <testcase name="runScenario" classname="com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest" time="0.225"/>
+  <testcase name="runScenario" classname="com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest" time="2.514"/>
+  <testcase name="runScenario" classname="com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest" time="0.067"/>
+  <testcase name="runScenario" classname="com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest" time="0.094"/>
+  <testcase name="runScenario" classname="com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest" time="0.04"/>
+  <testcase name="runScenario" classname="com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest" time="0.656"/>
+  <testcase name="runScenario" classname="com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest" time="0.029"/>
+  <testcase name="runScenario" classname="com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest" time="0.031"/>
+  <testcase name="runScenario" classname="com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest" time="0.212"/>
+  <testcase name="runScenario" classname="com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest" time="0.211"/>
+  <testcase name="runScenario" classname="com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest" time="0.247">
     <failure message="expected [OM] but found [Home]" type="java.lang.AssertionError">java.lang.AssertionError: expected [OM] but found [Home]
 </failure>
-    <system-out><![CDATA[getProperty==dev
-getProperty==dev
-...before scenarioName....io.cucumber.java.Scenario@5a8ef1de
-...set scenarioName....locators
-...Scenario Name...com.swissre.ioms.stepDefinitions.sharedHooks.scenarioHook@3b633d69
-...scenarioName....locators
-...filName...locators
-....jsonFilePath....src/test/java/com/swissre/ioms/jsonData/locators.json
-...scenarioName....locators
-..get...locators
-...Key....Home Text
-...Key in alterkey....Home Text
-...propertyType.....
-...objectProperty.....(//a[text()='Home'])[1]
-...element.....[[EdgeDriver: msedge on WINDOWS (544f0f3c1906dacc8b5a0b9bf40f4931)] -> xpath: (//a[text()='Home'])[1]]
+    <system-out><![CDATA[                      &amp#27;[90m# com.InfoOrigin.Template.stepDefinitions.dummyUI.example.user_clicks_on(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters &amp#27;[0m&amp#27;[32m&amp#27;[1m'Name'&amp#27;[0m&amp#27;[32m text as &amp#27;[0m&amp#27;[32m&amp#27;[1m'Umesh'&amp#27;[0m                                &amp#27;[90m# com.InfoOrigin.Template.stepDefinitions.dummyUI.example.userEntersTextAs(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should verify &amp#27;[0m&amp#27;[32m&amp#27;[1m'Reset Button'&amp#27;[0m                                &amp#27;[90m# com.InfoOrigin.Template.stepDefinitions.dummyUI.example.userShouldVerify(java.lang.String)&amp#27;[0m
 
 @IO @SampleUITest @Regression
-Scenario: locators: Scenario Verify Home button in InfoOrigin website &amp#27;[90m# src/test/java/com/swissre/ioms/features/dummyUI/example3.feature:6&amp#27;[0m
+Scenario: locators: Scenario Verify Home button in InfoOrigin website &amp#27;[90m# src/test/java/com/InfoOrigin/Template/features/dum...before scenarioName....io.cucumber.java.Scenario@76b41a4b
+...set scenarioName....locators
+...Scenario Name...com.InfoOrigin.Template.stepDefinitions.sharedHooks.scenarioHook@6c119cf
+...scenarioName....locators
+...filName...locators
+...scenarioName....locators
+..get...locators
+...Key....ContactUs Menu
+...Key in alterkey....ContactUs Menu
+...propertyType.....
+...objectProperty.....//a[contains(text(),'Contact Us')]
+...element.....[[EdgeDriver: msedge on WINDOWS (a5416a295e9e7cec6db4f328dd07c145)] -> xpath: //a[contains(text(),'Contact Us')]]
+...scenarioName....locators
+..get...locators
+...Key....ContactUs
+...Key in alterkey....ContactUs
+...propertyType.....
+...objectProperty.....//h1[contains(text(),'Contact Us ')]
+...element.....[[EdgeDriver: msedge on WINDOWS (a5416a295e9e7cec6db4f328dd07c145)] -> xpath: //h1[contains(text(),'Contact Us ')]]
 ...scenarioName....locators
 ..get...locators
 ...Key....Home Text
 ...Key in alterkey....Home Text
 ...propertyType.....
 ...objectProperty.....(//a[text()='Home'])[1]
-...element.....[[EdgeDriver: msedge on WINDOWS (544f0f3c1906dacc8b5a0b9bf40f4931)] -> xpath: (//a[text()='Home'])[1]]
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mVerify the text &amp#27;[0m&amp#27;[32m&amp#27;[1m'Home Text'&amp#27;[0m&amp#27;[32m as &amp#27;[0m&amp#27;[32m&amp#27;[1m'Home'&amp#27;[0m                           &amp#27;[90m# com.swissre.ioms.stepDefinitions.dummyUI.example.verifyTheTextHomeTextAsHome(java.lang.String,java.lang.String)&amp#27;[0m
-  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mVerify the &amp#27;[0m&amp#27;[31m&amp#27;[1m'Home Text'&amp#27;[0m&amp#27;[31m as &amp#27;[0m&amp#27;[31m&amp#27;[1m'OM'&amp#27;[0m                                 &amp#27;[90m# com.swissre.ioms.stepDefinitions.dummyUI.example.verifyTheAs(java.lang.String,java.lang.String)&amp#27;[0m
+...element.....[[EdgeDriver: msedge on WINDOWS (a5416a295e9e7cec6db4f328dd07c145)] -> xpath: (//a[text()='Home'])[1]]
+myUI/example3.feature:6&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser clicks on &amp#27;[0m&amp#27;[32m&amp#27;[1m'ContactUs Menu'&amp#27;[0m                                &amp#27;[90m# com.InfoOrigin.Template.stepDefinitions.dummyUI.example.user_clicks_on(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should verify &amp#27;[0m&amp#27;[32m&amp#27;[1m'ContactUs'&amp#27;[0m                                 &amp#27;[90m# com.InfoOrigin.Template.stepDefinitions.dummyUI.example.userShouldVerify(java.lang.String)&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mVerify the &amp#27;[0m&amp#27;[31m&amp#27;[1m'Home Text'&amp#27;[0m&amp#27;[31m as &amp#27;[0m&amp#27;[31m&amp#27;[1m'OM'&amp#27;[0m                                 &amp#27;[90m# com.InfoOrigin.Template.stepDefinitions.dummyUI.example.verifyTheAs(java.lang.String,java.lang.String)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[[main] INFO com.swissre.ioms.testSuites.dummyUI.CucumberRunnerTest - This is CucumberRunnerTest BeforeSuite
-Starting Microsoft Edge WebDriver 116.0.1938.62 (493f2197e519d4dde5309fdf4abf4f719089372d) on port 57183
-To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
-
-Only local connections are allowed.
-Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
-
-Microsoft Edge WebDriver was started successfully.
-Aug 28, 2023 5:05:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
   </testcase>
 </testsuite>

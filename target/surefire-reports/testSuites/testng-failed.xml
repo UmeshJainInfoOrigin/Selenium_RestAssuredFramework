@@ -3,17 +3,17 @@
 <suite thread-count="1" parallel="tests" name="Failed suite [testSuites]" guice-stage="DEVELOPMENT" verbose="0">
   <test thread-count="1" parallel="tests" name="example1(failed)" verbose="0">
     <classes>
-      <class name="com.swissre.ioms.testSuites.dummyUI.CucumberRunnerTest">
+      <class name="com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest">
         <methods>
           <include name="setUpClass"/>
           <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="0"/>
+          <include name="runScenario" invocation-numbers="10"/>
           <include name="destroyBrowser"/>
           <include name="beforeAll"/>
-          <include name="launchBrowser"/>
           <include name="afterAll"/>
+          <include name="launchBrowser"/>
         </methods>
-      </class> <!-- com.swissre.ioms.testSuites.dummyUI.CucumberRunnerTest -->
+      </class> <!-- com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest -->
     </classes>
   </test> <!-- example1(failed) -->
 </suite> <!-- Failed suite [testSuites] -->

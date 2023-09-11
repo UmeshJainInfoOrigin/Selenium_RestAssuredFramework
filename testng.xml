@@ -4,7 +4,7 @@
 
     <test name="example1">
         <classes>
-            <class name="com.swissre.ioms.testSuites.dummyUI.CucumberRunnerTest"/>
+            <class name="com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest"/>
         </classes>
 
     </test>

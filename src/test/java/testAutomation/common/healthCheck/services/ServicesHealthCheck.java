@@ -13,7 +13,7 @@ public class ServicesHealthCheck {
 			// Number of services to check
 			String envName=System.getProperty("EnvName");
 			if(envName==null){
-				envName="dev";
+				envName="template_dev";
 			}
 			JSONParser jsonP = new JSONParser();
 			FileReader reader = new FileReader("src/test/resources/healthConfiguration.json");

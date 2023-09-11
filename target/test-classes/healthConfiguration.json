@@ -1,8 +1,5 @@
 {
-  "dev": {
-      "internalService1": {},
-      "iosetsService": {
-        "iosService": {}
-      }
+  "template_dev": {
+      "templateService": {}
     }
 }
