@@ -65,13 +65,20 @@ public class example {
 
     @When("User clicks on {string}")
     public void user_clicks_on(String path) throws IOException, ParseException {
+        // Get the start time
+        long startTime = System.nanoTime();
         //Scenario:locators: Scenario Verify Home Contact Us Menu in InfoOrigin website
         String getScenarioName = this.scenarioContext.getScenarioName(); //locators
         //"ContactUs-Menu": "//a[contains(text(),'Contact Us')]"
         JSONObject getLocators = dataCache.get(getScenarioName); //it will open json and keep all data in memory
-        //
+        //Click function
         String objectValue = utils.getXpath(path, getLocators); // //a[contains(text(),'Contact Us')]
         LB.click(objectValue);
+        // Get the end time
+        long endTime = System.nanoTime();
+        // Calculate and print the execution time in milliseconds
+        long executionTime = (endTime - startTime) / 1000000; // Convert nanoseconds to milliseconds
+        System.out.println("Execution time for the automated test case: " + executionTime + " ms");
     }
 
     @And("User fills the message form")

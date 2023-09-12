@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="12.926" tests="11" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="9.618" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2022.3.3"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -43,12 +43,12 @@
     <property name="user.timezone" value="Asia/Calcutta"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.specification.version" value="19"/>
-    <property name="cucumber.filter.tags" value="@Regression"/>
+    <property name="cucumber.filter.tags" value="@IO_Contact"/>
     <property name="user.name" value="AbhishekChakole"/>
     <property name="java.class.path" value="C:\Users\AbhishekChakole\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Users\AbhishekChakole\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
     <property name="java.vm.specification.version" value="19"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.3.3 clean compile test -DEnvName=template_dev -DAuthProvider=OAuth -Dcucumber.filter.tags=@Regression"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.3.3 clean compile test -DEnvName=template_dev -DAuthProvider=OAuth -Dcucumber.filter.tags=@IO_Contact"/>
     <property name="java.home" value="C:\Users\AbhishekChakole\.jdks\openjdk-19.0.2"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -67,54 +67,5 @@
     <property name="sun.stdout.encoding" value="UTF-8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="runScenario" classname="com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest" time="0.225"/>
-  <testcase name="runScenario" classname="com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest" time="2.514"/>
-  <testcase name="runScenario" classname="com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest" time="0.067"/>
-  <testcase name="runScenario" classname="com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest" time="0.094"/>
-  <testcase name="runScenario" classname="com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest" time="0.04"/>
-  <testcase name="runScenario" classname="com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest" time="0.656"/>
-  <testcase name="runScenario" classname="com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest" time="0.029"/>
-  <testcase name="runScenario" classname="com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest" time="0.031"/>
-  <testcase name="runScenario" classname="com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest" time="0.212"/>
-  <testcase name="runScenario" classname="com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest" time="0.211"/>
-  <testcase name="runScenario" classname="com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest" time="0.247">
-    <failure message="expected [OM] but found [Home]" type="java.lang.AssertionError">java.lang.AssertionError: expected [OM] but found [Home]
-</failure>
-    <system-out><![CDATA[                      &amp#27;[90m# com.InfoOrigin.Template.stepDefinitions.dummyUI.example.user_clicks_on(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters &amp#27;[0m&amp#27;[32m&amp#27;[1m'Name'&amp#27;[0m&amp#27;[32m text as &amp#27;[0m&amp#27;[32m&amp#27;[1m'Umesh'&amp#27;[0m                                &amp#27;[90m# com.InfoOrigin.Template.stepDefinitions.dummyUI.example.userEntersTextAs(java.lang.String,java.lang.String)&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should verify &amp#27;[0m&amp#27;[32m&amp#27;[1m'Reset Button'&amp#27;[0m                                &amp#27;[90m# com.InfoOrigin.Template.stepDefinitions.dummyUI.example.userShouldVerify(java.lang.String)&amp#27;[0m
-
-@IO @SampleUITest @Regression
-Scenario: locators: Scenario Verify Home button in InfoOrigin website &amp#27;[90m# src/test/java/com/InfoOrigin/Template/features/dum...before scenarioName....io.cucumber.java.Scenario@76b41a4b
-...set scenarioName....locators
-...Scenario Name...com.InfoOrigin.Template.stepDefinitions.sharedHooks.scenarioHook@6c119cf
-...scenarioName....locators
-...filName...locators
-...scenarioName....locators
-..get...locators
-...Key....ContactUs Menu
-...Key in alterkey....ContactUs Menu
-...propertyType.....
-...objectProperty.....//a[contains(text(),'Contact Us')]
-...element.....[[EdgeDriver: msedge on WINDOWS (a5416a295e9e7cec6db4f328dd07c145)] -> xpath: //a[contains(text(),'Contact Us')]]
-...scenarioName....locators
-..get...locators
-...Key....ContactUs
-...Key in alterkey....ContactUs
-...propertyType.....
-...objectProperty.....//h1[contains(text(),'Contact Us ')]
-...element.....[[EdgeDriver: msedge on WINDOWS (a5416a295e9e7cec6db4f328dd07c145)] -> xpath: //h1[contains(text(),'Contact Us ')]]
-...scenarioName....locators
-..get...locators
-...Key....Home Text
-...Key in alterkey....Home Text
-...propertyType.....
-...objectProperty.....(//a[text()='Home'])[1]
-...element.....[[EdgeDriver: msedge on WINDOWS (a5416a295e9e7cec6db4f328dd07c145)] -> xpath: (//a[text()='Home'])[1]]
-myUI/example3.feature:6&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser clicks on &amp#27;[0m&amp#27;[32m&amp#27;[1m'ContactUs Menu'&amp#27;[0m                                &amp#27;[90m# com.InfoOrigin.Template.stepDefinitions.dummyUI.example.user_clicks_on(java.lang.String)&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should verify &amp#27;[0m&amp#27;[32m&amp#27;[1m'ContactUs'&amp#27;[0m                                 &amp#27;[90m# com.InfoOrigin.Template.stepDefinitions.dummyUI.example.userShouldVerify(java.lang.String)&amp#27;[0m
-  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mVerify the &amp#27;[0m&amp#27;[31m&amp#27;[1m'Home Text'&amp#27;[0m&amp#27;[31m as &amp#27;[0m&amp#27;[31m&amp#27;[1m'OM'&amp#27;[0m                                 &amp#27;[90m# com.InfoOrigin.Template.stepDefinitions.dummyUI.example.verifyTheAs(java.lang.String,java.lang.String)&amp#27;[0m
-]]></system-out>
-  </testcase>
+  <testcase name="runScenario" classname="com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest" time="0.652"/>
 </testsuite>
