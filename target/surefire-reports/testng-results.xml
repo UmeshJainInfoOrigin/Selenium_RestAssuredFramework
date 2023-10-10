@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-11T21:51:09 IST" name="testSuites" finished-at="2023-09-11T21:51:18 IST" duration-ms="8911">
+  <suite started-at="2023-10-10T14:41:24 IST" name="testSuites" finished-at="2023-10-10T14:41:32 IST" duration-ms="8850">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest@35ef1869]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-09-11T21:51:09 IST" name="example1" finished-at="2023-09-11T21:51:18 IST" duration-ms="8911">
+    <test started-at="2023-10-10T14:41:24 IST" name="example1" finished-at="2023-10-10T14:41:32 IST" duration-ms="8850">
       <class name="com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest">
-        <test-method is-config="true" signature="beforeAll()[pri:0, instance:com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest@35ef1869]" started-at="2023-09-11T21:51:09 IST" name="beforeAll" finished-at="2023-09-11T21:51:09 IST" duration-ms="25" status="PASS">
+        <test-method is-config="true" signature="beforeAll()[pri:0, instance:com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest@35ef1869]" started-at="2023-10-10T14:41:24 IST" name="beforeAll" finished-at="2023-10-10T14:41:24 IST" duration-ms="31" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeAll -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest@35ef1869]" started-at="2023-09-11T21:51:09 IST" name="setUpClass" finished-at="2023-09-11T21:51:09 IST" duration-ms="777" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest@35ef1869]" started-at="2023-10-10T14:41:24 IST" name="setUpClass" finished-at="2023-10-10T14:41:24 IST" duration-ms="856" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -25,35 +25,51 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest@35ef1869]" started-at="2023-09-11T21:51:09 IST" name="launchBrowser" finished-at="2023-09-11T21:51:16 IST" duration-ms="7030" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest@35ef1869]" started-at="2023-10-10T14:41:24 IST" name="launchBrowser" finished-at="2023-10-10T14:41:32 IST" duration-ms="7113" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest@35ef1869]" started-at="2023-09-11T21:51:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-09-11T21:51:17 IST" duration-ms="651" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest@35ef1869]" started-at="2023-10-10T14:41:32 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-10-10T14:41:32 IST" duration-ms="403" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["locators: Scenario Verify Home Contact Us Menu in InfoOrigin website"]]>
+                <![CDATA["locators: Verify Home button in InfoOrigin website"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["User able to create deal in TCM"]]>
+                <![CDATA["User able to navigate POM page"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="destroyBrowser()[pri:0, instance:com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest@35ef1869]" started-at="2023-09-11T21:51:17 IST" name="destroyBrowser" finished-at="2023-09-11T21:51:17 IST" duration-ms="205" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest@35ef1869]" started-at="2023-10-10T14:41:32 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-10-10T14:41:32 IST" duration-ms="75" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["locators: Verify Platform button in InfoOrigin website"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User able to navigate POM page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="destroyBrowser()[pri:0, instance:com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest@35ef1869]" started-at="2023-10-10T14:41:32 IST" name="destroyBrowser" finished-at="2023-10-10T14:41:32 IST" duration-ms="260" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- destroyBrowser -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest@35ef1869]" started-at="2023-09-11T21:51:17 IST" name="tearDownClass" finished-at="2023-09-11T21:51:18 IST" duration-ms="139" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest@35ef1869]" started-at="2023-10-10T14:41:32 IST" name="tearDownClass" finished-at="2023-10-10T14:41:32 IST" duration-ms="101" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method is-config="true" signature="afterAll()[pri:0, instance:com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest@35ef1869]" started-at="2023-09-11T21:51:18 IST" name="afterAll" finished-at="2023-09-11T21:51:18 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterAll()[pri:0, instance:com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest@35ef1869]" started-at="2023-10-10T14:41:32 IST" name="afterAll" finished-at="2023-10-10T14:41:32 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterAll -->
