@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="9.618" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="9.68" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2022.3.3"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="19.0.2+7-44"/>
     <property name="sun.boot.library.path" value="C:\Users\AbhishekChakole\.jdks\openjdk-19.0.2\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Dev\New folder\Selenium_RestAssuredFramework"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Dev\incognito_mode\Selenium_RestAssuredFramework"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Dev\New folder\Selenium_RestAssuredFramework"/>
+    <property name="user.dir" value="C:\Dev\incognito_mode\Selenium_RestAssuredFramework"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="java.runtime.version" value="19.0.2+7-44"/>
     <property name="os.arch" value="amd64"/>
@@ -43,12 +43,12 @@
     <property name="user.timezone" value="Asia/Calcutta"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.specification.version" value="19"/>
-    <property name="cucumber.filter.tags" value="@IO_Contact"/>
+    <property name="cucumber.filter.tags" value="@Platform"/>
     <property name="user.name" value="AbhishekChakole"/>
     <property name="java.class.path" value="C:\Users\AbhishekChakole\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Users\AbhishekChakole\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
     <property name="java.vm.specification.version" value="19"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.3.3 clean compile test -DEnvName=template_dev -DAuthProvider=OAuth -Dcucumber.filter.tags=@IO_Contact"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.3.3 clean compile test -DEnvName=template_dev -DAuthProvider=OAuth -Dcucumber.filter.tags=@Platform"/>
     <property name="java.home" value="C:\Users\AbhishekChakole\.jdks\openjdk-19.0.2"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -67,5 +67,6 @@
     <property name="sun.stdout.encoding" value="UTF-8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="runScenario" classname="com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest" time="0.652"/>
+  <testcase name="runScenario" classname="com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest" time="0.402"/>
+  <testcase name="runScenario" classname="com.InfoOrigin.Template.cucumberRunner.dummyUI.CucumberRunnerTest" time="0.072"/>
 </testsuite>

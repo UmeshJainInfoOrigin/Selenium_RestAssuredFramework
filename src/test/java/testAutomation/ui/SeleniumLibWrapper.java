@@ -52,18 +52,24 @@ public class SeleniumLibWrapper {
     public void browserLaunch(String browserType, String applicationName) {
         switch (browserType) {
             case "chrome":
-                System.setProperty("webdriver.chrome.driver", properties.getValue("BROWSER_LOCATION"));
-//                ChromeOptions option = new ChromeOptions(); //when you want to open in private mode
-//                option.addArguments("--incognito");
-//                driver = new ChromeDriver(option);
+                System.setProperty("webdriver.chrome.driver", properties.getValue("BROWSER_LOCATION_CHROME"));
+                if(properties.getValue("incognito_mode").equals("Yes")){
+                    ChromeOptions option = new ChromeOptions(); //when you want to open in private mode
+                    option.addArguments("--incognito");
+                    driver = new ChromeDriver(option);
+                }
+                else
                 driver= new ChromeDriver();                    //when you want to open in normal mode
                 login_to_application(applicationName);
                 break;
             case "edge":
-                System.setProperty("webdriver.edge.driver", properties.getValue("BROWSER_LOCATION"));
-//                EdgeOptions edgeoptions = new EdgeOptions();  //when you want to open in private mode
-//                edgeoptions.addArguments("-inprivate");
-//                driver = new EdgeDriver(edgeoptions);
+                System.setProperty("webdriver.edge.driver", properties.getValue("BROWSER_LOCATION_EDGE"));
+                if(properties.getValue("incognito_mode").equals("Yes")){
+                    EdgeOptions edgeoptions = new EdgeOptions();  //when you want to open in private mode
+                    edgeoptions.addArguments("-inprivate");
+                    driver = new EdgeDriver(edgeoptions);
+                }
+                else
                 driver = new EdgeDriver();                   //when you want to open in normal mode
                 waitFor(2);
                 login_to_application(applicationName);
@@ -72,7 +78,7 @@ public class SeleniumLibWrapper {
                 FirefoxBinary fb = new FirefoxBinary();
                 fb.addCommandLineOptions("--headless");
                 System.setProperty("webdriver.gecko.driver",
-                System.getProperty("user.dir") + "\\src\\main\\java\\resources\\geckodriver.exe");
+                        System.getProperty("user.dir") + "\\src\\main\\java\\resources\\geckodriver.exe");
                 System.setProperty(FirefoxDriver.SystemProperty.DRIVER_USE_MARIONETTE, "true");
                 System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE, "/dev/null");
                 FirefoxOptions fo = new FirefoxOptions();
