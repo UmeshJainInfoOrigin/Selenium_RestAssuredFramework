@@ -2,6 +2,86 @@
 
 It's a framework created with Cucumber, TestNG, Gherkins and Maven for dealing with UI Automation using Selenium & API Automation using REST Assured.
 
+# Core Framework
+## Selenium-Cucumber-Java
+
+This repository contains a collection of sample projects and libraries that demonstrate how to use `selenium-cucumber-java`, a BDD (Behavior-Driven Development) framework with Cucumber and Java. The projects showcase automation script development and utilize various reporters such as HTML and JSON. Additionally, it offers the ability to capture screenshots for tests and generate error shots for failed test cases.
+
+### Installation & Prerequisites
+
+1. JDK 1.8+ (Ensure that the Java class path is properly set)
+2. Maven (Ensure that the .m2 class path is properly set)
+3. IntelliJ IDE
+4. Required IntelliJ Plugins:
+   - Maven
+   - Cucumber
+   - Gherkins
+5. Browser driver (Ensure that you have the appropriate browser driver for your desired browser and that the class path is correctly configured)
+
+## Framework Setup
+
+To set up the framework, you can either fork or clone the repository from [here](https://github.com/amiya-pattnaik/selenium-cucumber-java), or download the ZIP file and set it up in your local workspace.
+
+## Running Sample Tests
+
+Run the following command to execute the features: 
+
+`clean compile test -DEnvName=template_dev -DAuthProvider=OAuth -Dcucumber.filter.tags=@Platform`. 
+
+## Reporters
+
+Once you have run your tests, you can generate various types of reports. This `selenium-cucumber-java` framework utilizes different test reporters to communicate pass/failure information.
+
+## Reporting
+
+### HTML Report
+
+To generate an HTML report, use the following plugin in Cucumber Options: `"html:target/cucumber-reports/CucumberRunnerTest-reports.html"`. 
+This generates an HTML report, and you can find it at `target/cucumber-reports/CucumberRunnerTest-reports.html`.
+
+### JSON Report
+
+To generate a JSON report, use the following plugin in Cucumber Options: `"json:target/cucumber-reports/CucumberRunnerTest.json"`. 
+This generates a JSON report, and you can find it at `target/cucumber-reports/CucumberRunnerTest.json`.
+
+## BDD Automation with Cucumber-Java and Page Objects
+
+In this repository, we encourage the use of Behavior-Driven Development (BDD) with Cucumber and Java to develop automation scripts. We provide predefined Step Definitions packaged under `/steps/Commonsteps.java` to help you accelerate your automation development. These Step Definitions support commonly used helper methods and can be customized according to your needs.
+
+Tests are written in the Cucumber framework using the Gherkin syntax. If you're new to Gherkin and Cucumber, you can find more information at [cucumber.io/docs/reference](https://cucumber.io/docs/reference). A typical test will have a structure similar to this:
+
+```gherkin
+Feature: Performing a Google Search
+
+    As a user on the Google search page
+    I want to search for Selenium-Webdriver
+    Because I want to learn more about it
+
+    Background:
+        Given I am on the search page
+
+    Scenario: Performing a search operation
+        When I enter "Selenium Webdriver" into the search box
+        And I click the search button
+        Then I should see a list of search results
+
+    Scenario Outline: Performing a search operation with test data from a data table
+        When I enter <searchItem> into the search box
+        And I click the search button
+        Then I should see a list of search results
+
+        Examples:
+        | searchItem         |
+        | "Selenium Webdriver" |
+```
+
+## The Page Object Design Pattern
+
+To better organize your test code and make it more maintainable, we recommend using the Page Object Design Pattern. With this pattern, the UI elements of your web application are modeled as objects within the test code. This approach reduces code duplication and allows easy updates if the UI changes. Writing and maintaining test automation can be challenging, especially when it comes to keeping selectors (classes, IDs, or XPath, etc.) up to date with the latest code changes. The Page Object pattern provides a solution by centralizing these selectors in separate <pagename>.java files, where you can manage them along with the associated methods.
+
+By using the Page Object pattern, your test files will only call the test methods, while the selectors and reusable methods reside in the corresponding Page Objects. This approach helps maintain a separation of concerns and ensures that when a test fails, it fails on an individual step. If a selector becomes invalid, updating it in the Page Object file can fix multiple failing tests that rely on the same selector.
+
+Implementing the Page Object pattern promotes maintainable and scalable test automation code. 
 
 
 ## List of Functionality in Framework for Selenium
