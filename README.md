@@ -5,7 +5,7 @@ It's a framework created with Cucumber, TestNG, Gherkins and Maven for dealing w
 # Core Framework
 ### Selenium-Cucumber-Java
 
-This repository contains a collection of sample projects and libraries that demonstrate how to use `selenium-cucumber-java`, a BDD (Behavior-Driven Development) framework with Cucumber and Java. The projects showcase automation script development and utilize various reporters such as HTML and JSON. Additionally, it offers the ability to capture screenshots for tests and generate error shots for failed test cases.
+This repository contains Test Automation framework use `selenium-cucumber-java`, a BDD (Behavior-Driven Development) framework with Cucumber and Java. The projects showcase automation script development and utilize various reporters such as HTML and JSON. Additionally, it offers the ability to capture screenshots for tests and generate error shots for failed test cases.
 
 ### Installation & Prerequisites
 
