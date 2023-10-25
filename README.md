@@ -37,12 +37,12 @@ Once you have run your tests, you can generate various types of reports. This `s
 ### HTML Report
 
 To generate an HTML report, use the following plugin in Cucumber Options: `"html:target/cucumber-reports/CucumberRunnerTest-reports.html"`. 
-This generates an HTML report, and you can find it at `target/cucumber-reports/CucumberRunnerTest-reports.html`.
+This generates an HTML report and you can find it at `target/cucumber-reports/CucumberRunnerTest-reports.html`.
 
 ### JSON Report
 
 To generate a JSON report, use the following plugin in Cucumber Options: `"json:target/cucumber-reports/CucumberRunnerTest.json"`. 
-This generates a JSON report, and you can find it at `target/cucumber-reports/CucumberRunnerTest.json`.
+This generates a JSON report and you can find it at `target/cucumber-reports/CucumberRunnerTest.json`.
 
 ## BDD Automation with Cucumber-Java and Page Objects
 
