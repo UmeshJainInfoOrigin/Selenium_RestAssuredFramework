@@ -20,7 +20,7 @@ This repository contains a BDD (Behavior-Driven Development) framework with Cucu
 
 ## Framework Setup
 
-To set up the framework, you can either fork or clone the repository from [here](https://github.com/amiya-pattnaik/selenium-cucumber-java), or download the ZIP file and set it up in your local workspace.
+To set up the framework, you can either fork or clone the repository from [here](https://github.com/UmeshJainInfoOrigin/Selenium_RestAssuredFramework/), or download the ZIP file and set it up in your local workspace.
 
 ## Running Sample Tests
 
