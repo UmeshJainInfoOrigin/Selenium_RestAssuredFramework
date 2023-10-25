@@ -46,7 +46,7 @@ This generates a JSON report, and you can find it at `target/cucumber-reports/Cu
 
 ## BDD Automation with Cucumber-Java and Page Objects
 
-In this repository, we encourage the use of Behavior-Driven Development (BDD) with Cucumber and Java to develop automation scripts. We provide predefined Step Definitions packaged under `/steps/Commonsteps.java` to help you accelerate your automation development. These Step Definitions support commonly used helper methods and can be customized according to your needs.
+In this repository, we encourage the use of Behavior-Driven Development (BDD) with Cucumber and Java to develop automation scripts. We provide predefined Step Definitions packaged under `com/InfoOrigin/Template/stepDefinitions/common/SharedStepDef.java` to help you accelerate your automation development. These Step Definitions support commonly used helper methods and can be customized according to your needs.
 
 Tests are written in the Cucumber framework using the Gherkin syntax. If you're new to Gherkin and Cucumber, you can find more information at [cucumber.io/docs/reference](https://cucumber.io/docs/reference). A typical test will have a structure similar to this:
 
@@ -77,9 +77,9 @@ Feature: Performing a Google Search
 
 ## The Page Object Design Pattern
 
-To better organize your test code and make it more maintainable, we recommend using the Page Object Design Pattern. With this pattern, the UI elements of your web application are modeled as objects within the test code. This approach reduces code duplication and allows easy updates if the UI changes. Writing and maintaining test automation can be challenging, especially when it comes to keeping selectors (classes, IDs, or XPath, etc.) up to date with the latest code changes. The Page Object pattern provides a solution by centralizing these selectors in separate <pagename>.java files, where you can manage them along with the associated methods.
+To better organize your test code and make it more maintainable, we recommend using the Page Object Design Pattern. With this pattern, the UI elements of your web application are modeled as objects within the test code. This approach reduces code duplication and allows easy updates if the UI changes. Writing and maintaining test automation can be challenging, especially when it comes to keeping selectors (classes, IDs, or XPath, etc.) up to date with the latest code changes. The Page Object pattern provides a solution by centralizing these locators in separate <pagename>.json files, where you can manage them along with the associated methods.
 
-By using the Page Object pattern, your test files will only call the test methods, while the selectors and reusable methods reside in the corresponding Page Objects. This approach helps maintain a separation of concerns and ensures that when a test fails, it fails on an individual step. If a selector becomes invalid, updating it in the Page Object file can fix multiple failing tests that rely on the same selector.
+By using the Page Object pattern, your test files will only call the test methods, while the locators and reusable methods reside in the corresponding Page Objects. This approach helps maintain a separation of concerns and ensures that when a test fails, it fails on an individual step. If a locator becomes invalid, updating it in the Page Object file can fix multiple failing tests that rely on the same locator.
 
 Implementing the Page Object pattern promotes maintainable and scalable test automation code. 
 
