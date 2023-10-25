@@ -11,7 +11,7 @@ This repository contains a BDD (Behavior-Driven Development) framework with Cucu
 
 1. JDK 1.8+ (Ensure that the Java class path is properly set)
 2. Maven (Ensure that the .m2 class path is properly set)
-3. IntelliJ IDE
+3. Intellij Community Edition IDE
 4. Required IntelliJ Plugins:
    - Maven
    - Cucumber
@@ -106,35 +106,23 @@ Selenium is a popular tool for automating web browser interactions and testing w
 #### 6. Handling Alerts and Pop-ups:
 * Dealing with JavaScript alerts, pop-up windows, and authentication dialogs.
 
-#### 7. Data-Driven Testing:
-* Running test cases with different sets of data to validate application behavior under various conditions.
-
-#### 8. Test Suites:
+#### 7. Test Suites:
 * Grouping test cases into suites and executing them in a specified order using tags.
 
-#### 9. Parallel Test Execution:
+#### 8. Parallel Test Execution:
 * Running tests concurrently on multiple browsers or devices for faster test execution.
 
-#### 10. Synchronization:
+#### 9. Synchronization:
 * Implementing wait mechanisms to ensure that elements are loaded before interacting with them, preventing flakiness in tests.
 
-#### 11. Page Object Model (POM):
+#### 10. Page Object Model (POM):
 * Structuring test automation code using the POM design pattern for maintainability and reusability.
 
-#### 12. Assertions and Verifications:
+#### 11. Assertions and Verifications:
 * Validating expected results by using assertions to check elements, text, or attributes on a web page.
 
-#### 13. Data-Driven Frameworks:
-* Developing data-driven testing frameworks to separate test data from test logic.
-
-#### 14. Test Reporting:
+#### 12. Test Reporting:
 * Generating test reports with detailed information on test results, including pass/fail status.
-
-#### 15. Test Configuration:
-* Managing test configurations and settings, including browser settings and test environment parameters.
-
-#### 16. Continuous Integration (CI) Integration:
-* Integrating Selenium tests into CI/CD pipelines for automated testing and deployment.
 
 
 
