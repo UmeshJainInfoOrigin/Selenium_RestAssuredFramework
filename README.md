@@ -48,7 +48,7 @@ This generates a JSON report and you can find it at `target/cucumber-reports/Cuc
 
 In this repository, we encourage the use of Behavior-Driven Development (BDD) with Cucumber and Java to develop automation scripts. We provide predefined Step Definitions packaged under `com/InfoOrigin/Template/stepDefinitions/common/SharedStepDef.java` to help you accelerate your automation development. These Step Definitions support commonly used helper methods and can be customized according to your needs.
 
-Tests are written in the Cucumber framework using the Gherkin syntax. If you're new to Gherkin and Cucumber, you can find more information at [cucumber.io/docs/reference](https://cucumber.io/docs/reference). A typical test will have a structure similar to this:
+Tests are written in the Cucumber framework using the Gherkin syntax. A typical test will have a structure similar to this:
 
 ```gherkin
 Feature: Performing a Google Search
