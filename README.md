@@ -60,7 +60,7 @@ Feature: Performing a Google Search
     Background:
         Given I am on the search page
 
-    Scenario: Performing a search operation
+    Scenario: locators: Performing a search operation
         When I enter "Selenium Webdriver" into the search box
         And I click the search button
         Then I should see a list of search results
@@ -77,7 +77,7 @@ Feature: Performing a Google Search
 
 ## The Page Object Design Pattern
 
-To better organize your test code and make it more maintainable, we recommend using the Page Object Design Pattern. With this pattern, the UI elements of your web application are modeled as objects within the test code. This approach reduces code duplication and allows easy updates if the UI changes. Writing and maintaining test automation can be challenging, especially when it comes to keeping locators (classes, IDs, or XPath, etc.) up to date with the latest code changes. The Page Object pattern provides a solution by centralizing these locators in separate <pagename>.json files, where you can manage them along with the associated methods.
+To better organize your test code and make it more maintainable, we recommend using the Page Object Design Pattern. With this pattern, the UI elements of your web application are modeled as objects within the test code. This approach reduces code duplication and allows easy updates if the UI changes. Writing and maintaining test automation can be challenging, especially when it comes to keeping locators (classes, IDs, or XPath, etc.) up to date with the latest code changes. We provide JSON files of locators under `com/InfoOrigin/Template/jsonData` The Page Object pattern provides a solution by centralizing these locators in separate <pagename>.json files, where you can manage them along with the associated methods.
 
 By using the Page Object pattern, your test files will only call the test methods, while the locators and reusable methods reside in the corresponding Page Objects. This approach helps maintain a separation of concerns and ensures that when a test fails, it fails on an individual step. If a locator becomes invalid, updating it in the Page Object file can fix multiple failing tests that rely on the same locator.
 
