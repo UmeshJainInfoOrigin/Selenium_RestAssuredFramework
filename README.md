@@ -134,7 +134,7 @@ REST Assured is a popular Java library for automating and testing RESTful web se
 * Sending HTTP requests such as GET, POST, PUT, DELETE, PATCH, etc.
 
 #### 2. Request Payloads:
-* Sending request payloads, including JSON, XML, form data, or other content types.
+* Sending request payloads, including JSON, XML.
 
 #### 3. Request Headers:
 * Adding custom headers to HTTP requests, including authentication, content type, and custom headers.
@@ -158,52 +158,28 @@ REST Assured is a popular Java library for automating and testing RESTful web se
 * Converting API responses to Java objects (deserialization) and Java objects to request payloads (serialization).
 
 #### 10. Response Body Content:
-* Validating the content of the response body, including schema validation, content matching, and data extraction.
+* Validating the content of the response body, including content matching.
 
-#### 11. Chaining Requests:
-* Chaining multiple API requests together based on the response of the previous request.
-
-#### 12. Logging and Reporting:
+#### 11. Logging and Reporting:
 * Generating logs and reports of API test execution.
 
-#### 13. Test Configuration and Setup:
+#### 12. Test Configuration and Setup:
 * Configuring global settings, such as base URLs, authentication tokens, and other common parameters.
 
-#### 14. Data-Driven Testing:
-* Running tests with multiple sets of data to validate different scenarios.
-
-#### 15. Parameterization:
-* Using variables and placeholders in requests to make them dynamic and reusable.
-
-#### 16. Response Time Measurement:
+#### 13. Response Time Measurement:
 * Measuring and asserting response times to check API performance.
 
-#### 17. Error Handling:
+#### 14. Error Handling:
 * Handling errors and exceptions, including expected and unexpected errors.
 
-#### 18. Mock Server Integration:
-* Creating and running mock servers to simulate API responses for testing.
-
-#### 19. Request and Response Logging:
-* Logging request and response details for debugging and troubleshooting.
-
-#### 20. Parallel Test Execution:
+#### 15. Parallel Test Execution:
 * Running tests in parallel for faster test execution.
 
-#### 21. Continuous Integration (CI) Integration:
-* Integrating REST Assured tests into CI/CD pipelines for automated testing and deployment.
+#### 16. Dynamic Environments:
+* Managing different test environments (e.g., development, test, uat) with environment-specific configurations.
 
-#### 22. Parameterized Tests:
-* Running the same test with different input data to ensure API behavior consistency.
-
-#### 23. Dynamic Environments:
-* Managing different test environments (e.g., development, staging, production) with environment-specific configurations.
-
-#### 24. Pre- and Post-Processing:
+#### 17. Pre- and Post-Processing:
 * Executing pre-processing and post-processing steps before and after each test.
 
-#### 25. Code Reusability:
+#### 18. Code Reusability:
 * Creating reusable utility functions and classes to reduce code duplication.
-
-#### 26. Test Data Management:
-* Managing and handling test data, including generation, retrieval, and cleanup.
